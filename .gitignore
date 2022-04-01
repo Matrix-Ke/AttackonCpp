@@ -36,5 +36,13 @@ include/OpenglDemo/
 !*.C
 !*.H
 !*.c
+!*.vcxproj
+!*.filters
+!*.user
+
 !*.gitignore
 !*.gitattributes
+
+
+
+

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{01cc24a2-1277-434f-b778-ce8466fc52e2}</ProjectGuid>
-    <RootNamespace>CppPractiseProject</RootNamespace>
+    <ProjectGuid>{724c906e-3fd1-4c38-8f73-b0b93b9a69f8}</ProjectGuid>
+    <RootNamespace>AdvancedWindows5th</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ClassTest.cpp" />
-    <ClCompile Include="Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ClassTest.h" />
+    <ClCompile Include="beginthreadex.cpp" />
+    <ClCompile Include="lockedAtomic.cpp" />
+    <ClCompile Include="ThreadTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

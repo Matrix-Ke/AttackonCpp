@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="ConsoleApplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ClassTest.cpp">
+    <ClCompile Include="..\ProgrammerSelf-cultivation\stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ClassTest.h">
+    <ClInclude Include="..\ProgrammerSelf-cultivation\stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

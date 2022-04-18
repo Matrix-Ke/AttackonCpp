@@ -1,12 +1,12 @@
-#include "ClassTest.h"
+﻿#include "ClassTest.h"
 
 
 char   name[20] = "KKL";
 
 ClassTest::ClassTest()
 {
-	//mName = name;
-	//mNumber = 28;
+	mName = name;
+	mNumber = 28;
 }
 
 ClassTest::ClassTest(const char* pName)

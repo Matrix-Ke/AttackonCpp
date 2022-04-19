@@ -5,6 +5,10 @@ char   name[20] = "KKL";
 
 ClassTest::ClassTest()
 {
+	//mName = name;
+	//mNumber = 28;
+	std::cout << "ClassTest construtor has been called\n";
+
 	mName = name;
 	mNumber = 28;
 }

@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{97cfad88-0c96-4985-9399-0cc5e6f95c67}</ProjectGuid>
+    <ProjectGuid>{298a85b2-fc3c-4bea-a86d-1939fdb2c7d5}</ProjectGuid>
     <RootNamespace>CppPractise</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -140,9 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ClassTest.cpp" />
-    <ClCompile Include="Main.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Template.cpp" />
+    <ClCompile Include="内存对齐函数.cpp" />
+    <ClCompile Include="函数中的静态局部变量.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassTest.h" />

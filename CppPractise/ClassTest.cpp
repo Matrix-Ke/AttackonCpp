@@ -26,6 +26,11 @@ ClassTest::ClassTest(char* name, int number)
 	mNumber = number;
 }
 
+ClassTest::~ClassTest()
+{
+	std::cout << "ClassTest = "<< mName <<" Deconstructor has been called!" << std::endl;
+}
+
 void ClassTest::printClassInfo()
 {
 	std::cout << "class name:" << mName << "\n" << "class number:" << mNumber << std::endl;

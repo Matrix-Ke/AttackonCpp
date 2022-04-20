@@ -11,6 +11,7 @@ public:
 	ClassTest();
 	ClassTest(const char* pName);
 	ClassTest(char* name, int number);
+	~ClassTest();
 
 	void printClassInfo();
 

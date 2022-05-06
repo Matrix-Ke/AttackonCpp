@@ -42,6 +42,7 @@ include/OpenglDemo/
 
 !*.gitignore
 !*.gitattributes
+!*.natvis
 
 
 

@@ -1,23 +1,31 @@
-#pragma once
+﻿#pragma once
 #include <exception>
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class ClassTest
+class BaseClass
 {
 public:
-	ClassTest();
-	ClassTest(const char* pName);
-	ClassTest(char* name, int number);
-	~ClassTest();
+	BaseClass();
+	BaseClass(const char* pName);
+	BaseClass(char* name, int number);
+	~BaseClass();
 
-	void printClassInfo();
+	virtual  void printClassInfo()  const;
 
+	static int mStaticNum;
 
 private:
 	unsigned int mNumber;
 	char* mName;
 };
 
+
+class ChildClass : public BaseClass
+{
+public:
+	void PrintInfo() const;
+	virtual void printClassInfo() const;
+};

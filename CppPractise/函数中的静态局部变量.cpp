@@ -1,13 +1,13 @@
-//#include "ClassTest.h"
+ï»¿//#include "ClassTest.h"
 //
 //#include <iostream>
 //
 //using namespace std;
 //
-////º¯ÊıÄÚ²¿¾²Ì¬±äÁ¿ÉùÃ÷Ê±ºòÖ»·ÖÅäÄÚ´æ£¬ÔÚµÚÒ»´ÎÊ¹ÓÃµÄÊ±ºòµ÷ÓÃ¹¹Ôìº¯Êı¹¹Ôì¡£Ö®ºóµ÷ÓÃÖ±½Ó·µ»Ø²»ÓÃ¹¹Ôì
-//ClassTest&  foo()
+////å‡½æ•°å†…éƒ¨é™æ€å˜é‡å£°æ˜æ—¶å€™åªåˆ†é…å†…å­˜ï¼Œåœ¨ç¬¬ä¸€æ¬¡ä½¿ç”¨çš„æ—¶å€™è°ƒç”¨æ„é€ å‡½æ•°æ„é€ ã€‚ä¹‹åè°ƒç”¨ç›´æ¥è¿”å›ä¸ç”¨æ„é€ 
+//BaseClass&  foo()
 //{
-//	static ClassTest  instanceClass;
+//	static BaseClass  instanceClass;
 //	return instanceClass;
 //}
 //
@@ -22,7 +22,7 @@
 //
 //int main()
 //{
-//	//ClassTest  c = foo();
+//	//BaseClass  c = foo();
 //	//c.printClassInfo();
 //	//foo();
 //	char   a[] = "a";
@@ -31,11 +31,11 @@
 //	char d[] = "d";
 //	char e[] = "e";
 //	unsigned  int index = 0;
-//	static ClassTest   aT(a);
-//	static ClassTest   bT(b);
-//	static ClassTest   cT(c);
-//	static ClassTest   dT(d);
-//	static ClassTest   eT(e);
+//	static BaseClass   aT(a);
+//	static BaseClass   bT(b);
+//	static BaseClass   cT(c);
+//	static BaseClass   dT(d);
+//	static BaseClass   eT(e);
 //
 //	return	0;
 //}

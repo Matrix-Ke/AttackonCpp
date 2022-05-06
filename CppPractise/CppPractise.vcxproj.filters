@@ -33,6 +33,9 @@
     <ClCompile Include="DebugVisualizer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Static成员变量继承.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassTest.h">
@@ -41,10 +44,5 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Natvis Include="DebugVisual.natvis">
-      <Filter>Source Files</Filter>
-    </Natvis>
   </ItemGroup>
 </Project>

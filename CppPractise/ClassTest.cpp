@@ -1,37 +1,44 @@
-﻿#include "ClassTest.h"
+#include "ClassTest.h"
 
 
 char   name[20] = "KKL";
+int BaseClass::mStaticNum = 100;
 
-ClassTest::ClassTest()
+BaseClass::BaseClass()
 {
 	//mName = name;
 	//mNumber = 28;
-	std::cout << "ClassTest construtor has been called\n";
+	std::cout << "BaseClass construtor has been called\n";
 
 	mName = name;
 	mNumber = 28;
 }
 
-ClassTest::ClassTest(const char* pName)
+BaseClass::BaseClass(const char* pName)
 {
-	mNumber = strlen(pName) + 1;
+	mNumber = (unsigned int)strlen(pName) + 1;
 	mName = new char[mNumber];
 	strcpy_s(mName, mNumber, pName);
 }
 
-ClassTest::ClassTest(char* name, int number)
+BaseClass::BaseClass(char* name, int number)
 {
 	mName = name;
 	mNumber = number;
 }
 
-ClassTest::~ClassTest()
+BaseClass::~BaseClass()
 {
-	std::cout << "ClassTest = "<< mName <<" Deconstructor has been called!" << std::endl;
+	std::cout << "BaseClass = " << mName << " Deconstructor has been called!" << std::endl;
 }
 
-void ClassTest::printClassInfo()
+void BaseClass::printClassInfo() const
 {
 	std::cout << "class name:" << mName << "\n" << "class number:" << mNumber << std::endl;
+}
+
+
+void ChildClass::printClassInfo() const
+{
+	printf_s("ChildClass info staticNum = %d \n", mStaticNum);
 }

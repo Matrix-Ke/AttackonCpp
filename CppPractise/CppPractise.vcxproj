@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="ClassTest.cpp" />
     <ClCompile Include="DebugVisualizer.cpp" />
+    <ClCompile Include="Static成员变量继承.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Template.cpp" />
     <ClCompile Include="内存对齐函数.cpp" />
@@ -149,9 +150,6 @@
   <ItemGroup>
     <ClInclude Include="ClassTest.h" />
     <ClInclude Include="stdafx.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Natvis Include="DebugVisual.natvis" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

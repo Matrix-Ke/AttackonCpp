@@ -39,6 +39,7 @@ include/OpenglDemo/
 !*.vcxproj
 !*.filters
 !*.user
+!*.sln
 
 !*.gitignore
 !*.gitattributes

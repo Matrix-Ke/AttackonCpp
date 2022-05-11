@@ -39,6 +39,9 @@
     <ClCompile Include="VirtualDerivedAndVirtualTable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C语言可变参数.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassTest.h">

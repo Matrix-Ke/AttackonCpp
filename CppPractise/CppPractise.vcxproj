@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ClassTest.cpp" />
+    <ClCompile Include="C语言可变参数.cpp" />
     <ClCompile Include="DebugVisualizer.cpp" />
     <ClCompile Include="Static成员变量继承.cpp" />
     <ClCompile Include="stdafx.cpp" />

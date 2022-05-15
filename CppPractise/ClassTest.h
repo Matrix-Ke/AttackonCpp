@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include <exception>
 #include <iostream>
 #include <string>
@@ -13,10 +13,11 @@ public:
 	BaseClass(char* name, int number);
 	~BaseClass();
 
-	virtual  void printClassInfo()  const;
+	//virtual  void printClassInfo()  const;
 
 	static int mStaticNum;
 
+	void PrintInfo() const;
 private:
 	unsigned int mNumber;
 	char* mName;
@@ -27,5 +28,9 @@ class ChildClass : public BaseClass
 {
 public:
 	void PrintInfo() const;
-	virtual void printClassInfo() const;
+	//virtual void printClassInfo() const;
+
+private:
+	int testNum;
+
 };

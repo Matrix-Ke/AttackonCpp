@@ -8,7 +8,7 @@ BaseClass::BaseClass()
 {
 	//mName = name;
 	//mNumber = 28;
-	std::cout << "BaseClass construtor has been called\n";
+	//std::cout << "BaseClass construtor has been called\n";
 
 	mName = name;
 	mNumber = 28;
@@ -29,16 +29,26 @@ BaseClass::BaseClass(char* name, int number)
 
 BaseClass::~BaseClass()
 {
-	std::cout << "BaseClass = " << mName << " Deconstructor has been called!" << std::endl;
+	//std::cout << "BaseClass = " << mName << " Deconstructor has been called!" << std::endl;
 }
 
-void BaseClass::printClassInfo() const
+void BaseClass::PrintInfo() const
 {
-	std::cout << "class name:" << mName << "\n" << "class number:" << mNumber << std::endl;
+	std::cout << "hello base \n";
 }
 
+//void BaseClass::printClassInfo() const
+//{
+//	std::cout << "class name:" << mName << "\n" << "class number:" << mNumber << std::endl;
+//}
+//
+//
+//void ChildClass::printClassInfo() const
+//{
+//	printf_s("ChildClass info staticNum = %d \n", mStaticNum);
+//}
 
-void ChildClass::printClassInfo() const
+void ChildClass::PrintInfo() const
 {
-	printf_s("ChildClass info staticNum = %d \n", mStaticNum);
+	std::cout << "hello child \n";
 }

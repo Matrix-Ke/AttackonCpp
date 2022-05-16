@@ -32,6 +32,11 @@ BaseClass::~BaseClass()
 	//std::cout << "BaseClass = " << mName << " Deconstructor has been called!" << std::endl;
 }
 
+void BaseClass::baseFunction()
+{
+	std::cout << "baseFunction called \n";
+}
+
 void BaseClass::PrintInfo() const
 {
 	std::cout << "hello base \n";
@@ -47,6 +52,12 @@ void BaseClass::PrintInfo() const
 //{
 //	printf_s("ChildClass info staticNum = %d \n", mStaticNum);
 //}
+
+
+void ChildClass::ChildFunction()
+{
+	std::cout << "ChildFunction called \n";
+}
 
 void ChildClass::PrintInfo() const
 {

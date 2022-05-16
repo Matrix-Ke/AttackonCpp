@@ -14,9 +14,13 @@ int main()
 	//cout << "PageSize = " << PageSize << endl;
 	//cout << "~PageSize = " << ~PageSize << endl;
 
-	ChildClass cb = ChildClass();
+	ChildClass cClass = ChildClass();
+	BaseClass   bClass = BaseClass();
+	//cClass = bClass;
+	//bClass = cClass;
 
-	cb.PrintInfo();
+	bClass.PrintInfo();
+	cClass.baseFunction();
 	return 0;
 }
 

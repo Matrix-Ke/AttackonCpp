@@ -16,7 +16,7 @@ public:
 	//virtual  void printClassInfo()  const;
 
 	static int mStaticNum;
-
+	void baseFunction();
 	void PrintInfo() const;
 private:
 	unsigned int mNumber;
@@ -27,6 +27,7 @@ private:
 class ChildClass : public BaseClass
 {
 public:
+	void ChildFunction();
 	void PrintInfo() const;
 	//virtual void printClassInfo() const;
 
@@ -34,3 +35,4 @@ private:
 	int testNum;
 
 };
+

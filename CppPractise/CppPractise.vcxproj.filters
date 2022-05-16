@@ -42,6 +42,9 @@
     <ClCompile Include="C语言可变参数.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="赋值运算符重载.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassTest.h">

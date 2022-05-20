@@ -148,6 +148,7 @@
     <ClCompile Include="VirtualDerivedAndVirtualTable.cpp" />
     <ClCompile Include="内存对齐函数.cpp" />
     <ClCompile Include="函数中的静态局部变量.cpp" />
+    <ClCompile Include="嵌套命名空间.cpp" />
     <ClCompile Include="赋值运算符重载.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -48,6 +48,9 @@
     <ClCompile Include="嵌套命名空间.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C++流处理cpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassTest.h">
@@ -61,5 +64,10 @@
     <Natvis Include="DebugVisual.natvis">
       <Filter>Resource Files</Filter>
     </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IOstreamTest.json">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

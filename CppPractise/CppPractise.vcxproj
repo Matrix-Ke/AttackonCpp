@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="C++流处理cpp.cpp" />
     <ClCompile Include="ClassTest.cpp" />
     <ClCompile Include="C语言可变参数.cpp" />
     <ClCompile Include="DebugVisualizer.cpp" />
@@ -157,6 +158,9 @@
   </ItemGroup>
   <ItemGroup>
     <Natvis Include="DebugVisual.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IOstreamTest.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -41,6 +41,7 @@ include/OpenglDemo/
 !*.user
 !*.sln
 !*.json
+!*.pdf
 
 !*.gitignore
 !*.gitattributes

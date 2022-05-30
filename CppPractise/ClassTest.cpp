@@ -42,16 +42,16 @@ void BaseClass::PrintInfo() const
 	std::cout << "hello base \n";
 }
 
-//void BaseClass::printClassInfo() const
-//{
-//	std::cout << "class name:" << mName << "\n" << "class number:" << mNumber << std::endl;
-//}
-//
-//
-//void ChildClass::printClassInfo() const
-//{
-//	printf_s("ChildClass info staticNum = %d \n", mStaticNum);
-//}
+void BaseClass::printClassInfo() const
+{
+	std::cout << "class name:" << mName << "\n" << "class number:" << mNumber << std::endl;
+}
+
+
+void ChildClass::printClassInfo() const
+{
+	printf_s("ChildClass info staticNum = %d \n", mStaticNum);
+}
 
 
 void ChildClass::ChildFunction()
@@ -63,3 +63,13 @@ void ChildClass::PrintInfo() const
 {
 	std::cout << "hello child \n";
 }
+
+void ChildClassTwo::ChildFunction()
+{
+	std::cout << "ChildClassTwo called\n ";
+}
+
+void ChildClassTwo::printClassInfo() const
+{
+}
+

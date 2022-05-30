@@ -13,7 +13,7 @@ public:
 	BaseClass(char* name, int number);
 	~BaseClass();
 
-	//virtual  void printClassInfo()  const;
+	virtual  void printClassInfo()  const;
 
 	static int mStaticNum;
 	void baseFunction();
@@ -29,10 +29,19 @@ class ChildClass : public BaseClass
 public:
 	void ChildFunction();
 	void PrintInfo() const;
-	//virtual void printClassInfo() const;
+	virtual void printClassInfo() const;
 
 private:
 	int testNum;
 
 };
 
+
+class ChildClassTwo :public BaseClass
+{
+public:
+	void ChildFunction();
+	virtual void printClassInfo() const;
+	//void PrintInfo() const;
+
+};

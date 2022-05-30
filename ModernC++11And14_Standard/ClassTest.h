@@ -13,11 +13,11 @@ public:
 	BaseClassForTest(char* name, int number);
 
 	BaseClassForTest(const BaseClassForTest& rhs);
-	//引入move语义
-	BaseClassForTest(BaseClassForTest&& rhs);
+	BaseClassForTest(BaseClassForTest&& rhs);  //引入move语义
 
-	virtual  void printClassInfo()  const;
 
+	~BaseClassForTest();
+	//virtual  void printClassInfo()  const;
 	void baseFunction();
 	void PrintInfo() const;
 
@@ -34,7 +34,8 @@ class ChildClass : public BaseClassForTest
 public:
 	void ChildFunction();
 	void PrintInfo() const;
-	virtual void printClassInfo() const;
+
+	//virtual void printClassInfo() const;
 
 private:
 	int testNum;

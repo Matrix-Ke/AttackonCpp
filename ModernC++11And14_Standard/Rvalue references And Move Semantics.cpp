@@ -17,11 +17,15 @@ int fn1(int a)
 	return 1;
 }
 
+
+
 int main()
 {
-	int num = 99;
-	int i = fn2(num, 1, 2, 3, 4, 5, 6, 7);
-	//int i = fn1(num, 1, 2, 3, 4, 5, 6, 7);
+	//int num = 99;
+	//int i = fn2(num, 1, 2, 3, 4, 5, 6, 7);
+	////int i = fn1(num, 1, 2, 3, 4, 5, 6, 7);
+
+
 	return 0;
 }
 

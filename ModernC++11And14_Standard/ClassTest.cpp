@@ -62,16 +62,16 @@ void BaseClassForTest::PrintInfo() const
 	std::cout << "hello base \n";
 }
 
-void BaseClassForTest::printClassInfo() const
-{
-	std::cout << "class name:" << mName << "\n" << "class number:" << mNumber << std::endl;
-}
+//void BaseClassForTest::printClassInfo() const
+//{
+//	std::cout << "class name:" << mName << "\n" << "class number:" << mNumber << std::endl;
+//}
 
 
-void ChildClass::printClassInfo() const
-{
-	printf_s("ChildClass info staticNum = %d \n", mStaticNum);
-}
+//void ChildClass::printClassInfo() const
+//{
+//	printf_s("ChildClass info staticNum = %d \n", mStaticNum);
+//}
 
 
 void ChildClass::ChildFunction()

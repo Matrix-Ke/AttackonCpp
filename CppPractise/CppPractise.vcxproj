@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="C++ Cast_Compare.cpp" />
     <ClCompile Include="C++流处理cpp.cpp" />
     <ClCompile Include="ClassTest.cpp" />
     <ClCompile Include="C语言可变参数.cpp" />

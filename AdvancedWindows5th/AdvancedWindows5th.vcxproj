@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="beginthreadex.cpp" />
+    <ClCompile Include="Condition Variables.cpp" />
     <ClCompile Include="lockedAtomic.cpp" />
     <ClCompile Include="ThreadTest.cpp" />
   </ItemGroup>

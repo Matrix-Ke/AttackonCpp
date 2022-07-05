@@ -24,5 +24,8 @@
     <ClCompile Include="beginthreadex.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Condition Variables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -29,12 +29,12 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
 	}
 	return head;
 }
-
-int main()
-{
-	ListNode* one = new ListNode(1, nullptr);
-	ListNode* two = new ListNode(1, one);
-	deleteDuplicates(two);
-
-	return 0;
-}
+//
+//int main()
+//{
+//	ListNode* one = new ListNode(1, nullptr);
+//	ListNode* two = new ListNode(1, one);
+//	deleteDuplicates(two);
+//
+//	return 0;
+//}

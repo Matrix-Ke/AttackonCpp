@@ -142,6 +142,7 @@
     <ClInclude Include="Dijkstra.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BinHexOct.cpp" />
     <ClCompile Include="Dijkstra.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
